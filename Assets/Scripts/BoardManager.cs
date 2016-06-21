@@ -7,8 +7,7 @@ public class BoardManager : MonoBehaviour {
 
 	GameObject OriginalTriger;
 	int[,] board = new int[20,20];
-	TriggerScript[,] trigger = new TriggerScript[20,20];
-	myVector3 vec;
+	TriggerScript[,] trigger = new TriggerScript[20, 20];
 
 	void Awake(){
 		if (instance == null) {
@@ -39,7 +38,6 @@ public class BoardManager : MonoBehaviour {
 				}
 			}
 		}
-		vec = new myVector3 (1,2,3);
 
 	}
 
